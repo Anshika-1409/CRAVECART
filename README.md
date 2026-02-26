@@ -230,12 +230,17 @@ Backend starts at: `http://localhost:8080`
 ```json
 {
   "id": 1,
-  "name": "Basmati Rice 5kg",
-  "category": "Grains",
-  "brand": "India Gate",
-  "packaging": "Bag",
-  "price": 12.99,
-  "stock": 100
+  "name": "Margherita Pizza",
+  "category": "Pizza",
+  "brand": "Domino's",
+  "packaging": "Box",
+  "price": 9.99,
+  "stock": 50,
+  "description": "Classic cheese and tomato pizza with fresh mozzarella",
+  "imageUrl": "https://example.com/images/margherita-pizza.jpg",
+  "isAvailable": true,
+  "createdAt": "2026-02-26T10:30:00Z",
+  "updatedAt": "2026-02-26T10:30:00Z"
 }
 ```
 
